@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.endos</groupId>
+    <artifactId>groupon</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>${project.artifactId}</name>
+
+    <modules>
+        <module>groupon-admin</module>
+        <module>groupon-site</module>
+        <module>groupon-service</module>
+        <module>groupon-image-server</module>
+        <module>groupon-alipay</module>
+    </modules>
+
+    <properties>
+        <servlet_version>3.1.0</servlet_version>
+        <javassist_version>3.20.0-GA</javassist_version>
+        <freemarker_version>2.3.22</freemarker_version>
+        <spring_version>4.3.2.RELEASE</spring_version>
+        <maven_jar_plugin_version>2.3.2</maven_jar_plugin_version>
+        <maven_war_plugin_version>2.1.1</maven_war_plugin_version>
+        <maven_install_plugin_version>2.3.1</maven_install_plugin_version>
+        <maven_deploy_plugin_version>2.7</maven_deploy_plugin_version>
+        <maven_compiler_plugin_version>3.2</maven_compiler_plugin_version>
+        <maven_clean_plugin_version>2.4.1</maven_clean_plugin_version>
+        <java_source_version>8</java_source_version>
+        <java_target_version>8</java_target_version>
+        <file_encoding>UTF-8</file_encoding>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.endos</groupId>
+                <artifactId>groupon-service</artifactId>
+                <version>1.0</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
