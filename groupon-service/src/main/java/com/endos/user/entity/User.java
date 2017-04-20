@@ -21,5 +21,4 @@ public class User extends BaseEntity {
     @Getter @Setter private Date createTime;
     /* 更新时间 */
     @Getter @Setter private Date updateTime;
-
 }
