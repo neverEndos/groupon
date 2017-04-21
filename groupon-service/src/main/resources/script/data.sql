@@ -1,0 +1,9 @@
+-- user表初始化数据
+LOCK TABLES `user` WRITE;
+/*!40000 ALTER TABLE `user` DISABLE KEYS */;
+INSERT INTO `user`
+(`password`, `name`)
+VALUES
+  ('098F6BCD4621D373CADE4E832627B4F6','road');
+/*!40000 ALTER TABLE `user` ENABLE KEYS */;
+UNLOCK TABLES;

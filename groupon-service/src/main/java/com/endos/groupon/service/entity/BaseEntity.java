@@ -1,4 +1,4 @@
-package com.endos.framework.base.entity;
+package com.endos.groupon.service.entity;
 
 import lombok.Getter;
 import lombok.Setter;

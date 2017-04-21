@@ -1,6 +1,5 @@
-package com.endos.user.entity;
+package com.endos.groupon.service.entity;
 
-import com.endos.framework.base.entity.BaseEntity;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,7 +11,7 @@ import java.util.Date;
  */
 public class UserBasicInfo extends BaseEntity {
     /* 昵称 */
-    @Getter @Setter private String nickname;
+    @Getter @Setter private String nickName;
     /* 真实姓名 */
     @Getter @Setter private String realName;
     /* 邮箱 */

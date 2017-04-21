@@ -1,6 +1,5 @@
-package com.endos.user.entity;
+package com.endos.groupon.service.entity;
 
-import com.endos.framework.base.entity.BaseEntity;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -15,10 +14,10 @@ public class User extends BaseEntity {
     @Getter @Setter private String password;
     /* 用户名 */
     @Getter @Setter private String name;
-    /* 登陆时间 */
-    @Getter @Setter private Date loginTime;
     /* 创建时间 */
     @Getter @Setter private Date createTime;
+    /* 登陆时间 */
+    @Getter @Setter private Date loginTime;
     /* 更新时间 */
     @Getter @Setter private Date updateTime;
 }
